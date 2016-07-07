@@ -1,6 +1,92 @@
+// IMPORTS
+//
 @import 'variables';
 @import 'bootstrap-sass/stylesheets/bootstrap';
-
-
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 @import 'tem_font/css/tem.css';
+
+// UTILITY CLASSES
+//
+.inactive {
+    color: $gray-light;
+}
+
+.active {
+    font-weight: 700;
+}
+
+// CUSTOM TYPOGRAPHY
+//
+h1 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+    color: $text-color;
+}
+
+h5 {
+    color: $text-color;
+}
+
+// NAVABAR
+//
+.navbar {
+    padding-top: 10px;
+}
+
+body {
+    padding-top: 100px;
+}
+
+// UI BUTTONS
+//
+.btn-default {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.btn-lg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-default:hover {
+    color: $brand-primary;
+    border-color: $brand-primary;
+}
+
+// UI ICONS
+.icon-tem_headphone {
+    font-size:80px;
+}
+
+.icon-tem_home, .icon-tem_info, .icon-tem_share, .icon-tem_info, .icon-tem_share, .icon-tem_list {
+    font-size: 30px;
+}
+
+.icon-tem_arrow-down, .icon-tem_arrow-up  {
+    font-size: 40px;
+}
+
+.icon-tem_compass {
+    font-size: 20px;
+}
+
+.icon-tem_check {
+    font-size: 20px;
+}
+
+.icon-tem_marker, .icon-tem_marker-cross {
+    font-size: 80px;
+    color: $brand-primary;
+}
+
+.icon-tem_play {
+    font-size: 120px;
+}
+
+.icon-tem_pause, .icon-tem_rewind {
+    font-size: 80px;
+}

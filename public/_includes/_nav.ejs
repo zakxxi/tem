@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+              <div class="row">
+                     <%if (current.source != 'index') { %>
+                            <div class="col-xs-4 text-center">
+                                   <a href="#">
+                                          <i class="icon-tem_home"></i>
+                                   </a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                   <a href="#">
+                                          <i class="icon-tem_info"></i>
+                                   </a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                   <a href="#">
+                                          <i class="icon-tem_share"></i>
+                                   </a>
+                            </div>
+                            <div class="col-xs-12 text-center">
+                                   <h2><%= title %></h2>
+                            </div>
+                     <% } else{ %>
+                            <div class="col-xs-4 col-xs-offset-4 text-center">
+                                   <a href="#">
+                                          <i class="icon-tem_info"></i>
+                                   </a>
+                            </div>
+                      <% } %>
+                     </div>
+              </div>
+       </nav>
