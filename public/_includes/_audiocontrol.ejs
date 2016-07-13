@@ -1,14 +1,10 @@
-
-<h3>audiocontrol</h3>
- <audio id="audioElt" controls="controls">
+<audio id="audioElt" controls="controls">
     <source id="mp3_src" src="<%= public.paths._data[current.source].audiourl %>" type="audio/mpeg">
- </audio>
+</audio>
  <div>
-<i class="icon-tem_play" onclick="$.popcorn.play()"></i>
-<i class="icon-tem_pause" onclick="$.popcorn.pause()"></i>
-<i class="icon-tem_rewind" onclick="$.popcorn.currentTime(currentCue)"></i>
+<i class="icon-tem_play big" onclick="$.popcorn.play()"></i>
+
 </div>
-<h1 id="currentCue"></h1>
 <ul>
 <%
 var chapters = public.paths._data[current.source].cues;
@@ -17,6 +13,20 @@ for(var i=0; i<chapters.length; i++) {%>
 <li><br><br><br><br><br><br><br><br></li>
 <% } %>
 </ul>
+
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+       <div class="container">
+              <div class="row">
+                <i class="icon-tem_rewind" onclick="$.popcorn.currentTime(currentCue)"></i>
+                <i class="icon-tem_play" onclick="$.popcorn.play();"></i>
+                <i class="icon-tem_pause hide" onclick="$.popcorn.pause()"></i>
+                <span class="timer" id="currentCue">0:00</span>
+              </div>
+      </div>
+</nav>
+
+
 <script type="text/javascript">
     var pathData = <%- JSON.stringify(public.paths._data[current.source]) %>;
 </script>

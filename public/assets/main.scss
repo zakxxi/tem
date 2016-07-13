@@ -7,15 +7,29 @@
 
 // UTILITY CLASSES
 //
-.inactive h3 {
-    color: $gray-light;
+
+html {
+  user-select: none;
 }
 
-.inactive hr {
+.inactive {
+  h3 {
+    margin-top: 15px;
+
+  }
+  h3, i {
+    color: $gray-light;
+    }
+  hr {
     border-color: $gray-light;
+  }
 }
+
 .open {
-    font-weight: 700;
+    font-weight: 500;
+    color: $brand-primary;
+
+
 }
 
 .maps {
@@ -35,6 +49,10 @@ h3 {
     color: $text-color;
 }
 
+.pathtitle h3 {
+    margin-top: 15px;
+}
+
 h5 {
     color: $text-color;
 }
@@ -46,6 +64,12 @@ ul {
 
 hr {
     margin: 0;
+}
+
+.courtesy {
+  font-weight: 300;
+  font-size: 12px;
+
 }
 
 // NAVABAR
@@ -64,6 +88,14 @@ hr {
 .btn-lg {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.btn-xs {
+  margin-top: 10px;
+}
+
+.btn-xs:last-of-type {
+  margin-left: 20px;
 }
 
 .btn-default:hover {
@@ -91,7 +123,7 @@ body {
 }
 
 .icon-tem_arrow-down, .icon-tem_arrow-up  {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .icon-tem_compass {
@@ -110,10 +142,10 @@ body {
     font-size: 20px;
     color: $text-color;
 }
-.icon-tem_play {
+.icon-tem_play.big {
     font-size: 120px;
 }
 
-.icon-tem_pause, .icon-tem_rewind {
+.icon-tem_pause, .icon-tem_rewind, .icon-tem_play  {
     font-size: 80px;
 }
