@@ -7,10 +7,13 @@
 
 // UTILITY CLASSES
 //
-.inactive {
+.inactive h3 {
     color: $gray-light;
 }
 
+.inactive hr {
+    border-color: $gray-light;
+}
 .open {
     font-weight: 700;
 }

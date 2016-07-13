@@ -17,11 +17,7 @@
                             </a>
                      </div>
                      <div class="col-xs-12 text-center">
-                            <% for(var slug in public.paths._data){ %>
-                                   <%if (current.source == slug) { %>
-                                          <h2><%= public.paths._data[slug].town %></h2>
-                                   <% } %>
-                            <% }; %>
+                            <h2><%= public.paths._data[current.source].town %></h2>
                      </div>
               </div>
        </div>

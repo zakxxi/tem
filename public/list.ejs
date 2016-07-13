@@ -1,17 +1,19 @@
 <div class="container fluid">
     <% for(var slug in public.paths._data){ %>
-        <div class="row" data-toggle="collapse" data-target="#<%= slug %>">
+        <% if (public.paths._data[slug].isActive == true) { %>
+        <div class="row pathtitle" data-toggle="collapse" data-target="#<%= slug %>">
             <hr>
             <div class="col-xs-10">
                 <h3><%= public.paths._data[slug].town %></h3>
             </div>
             <div class="col-xs-2 text-right">
                 <i class="icon-tem_arrow-down"></i>
+                <i class="icon-tem_arrow-up hide"></i>
             </div>
         </div>
         <div class="row collapse pathcard" id="<%= slug %>">
             <div class="col-xs-12">
-                <div class="maps" id="map_<%= slug %>"></div>
+                <div class="maps" id="map"></div>
             </div>
             <div class="col-xs-12">
                 <p>
@@ -20,49 +22,25 @@
                 <p class="courtesy">
                     <%= public.paths._data[slug].courtesy %>
                 </p>
-                    <% var location = public.paths._data[slug].location;
-                        console.log(location);
-                    %>
-                <h5> <i class="icon-tem_marker-cross small"></i>Latitude : 43.5327 | Longitude : 3.86046 </h5>
-                <a class="btn btn-default btn-xs" target = "_blank" href="https://www.google.fr/maps/@43.5327195,3.8593715,18z"><i class="icon-tem_compass"></i>M'y rendre</a>
+                <% var location = public.paths._data[slug].location.split(",");
+                %>
+                <h5> <i class="icon-tem_marker-cross small"></i>Latitude : <%= location[0] %> | Longitude : <%= location[1] %> </h5>
+                <a class="btn btn-default btn-xs" target = "_blank" href="https://maps.google.fr/maps?q=<%= location[0] %>,<%= location[1] %>&z=20"><i class="icon-tem_compass"></i>M'y rendre</a>
                 <a class="btn btn-default btn-xs" href="paths/<%= slug %>"><i class="icon-tem_check"></i>Commencer</a>
             </div>
         </div>
-        <% }; %>
+            <% } else {%>
+                <div class="row inactive">
+                    <hr>
+                    <div class="col-xs-10">
+                        <h3><%= public.paths._data[slug].town %></h3>
+                    </div>
+                    <div class="col-xs-2 text-right">
+                        <i class="icon-tem_arrow-down inactive"></i>
+                    </div>
+                </div>
+        <% }}; %>
+</div>
 
-        <div class="row">
-            <hr>
-            <div class="col-xs-10">
-                <h3 class ="inactive">Parcours 2</h3>
-            </div>
-            <div class="col-xs-2 text-right">
-                <i class="icon-tem_arrow-down inactive"></i>
-            </div>
-        </div>
-        <div class="row">
-            <hr>
-            <div class="col-xs-10">
-                <h3 class ="inactive">Parcours 3</h3>
-            </div>
-            <div class="col-xs-2 text-right">
-                <i class="icon-tem_arrow-down inactive"></i>
-            </div>
-        </div>
-        <div class="row">
-            <hr>
-            <div class="col-xs-10">
-                <h3 class ="inactive">Parcours 4</h3>
-            </div>
-            <div class="col-xs-2 text-right">
-                <i class="icon-tem_arrow-down inactive"></i>
-            </div>
-        </div>
-        <div class="row">
-            <hr>
-            <div class="col-xs-10">
-                <h3 class ="inactive">Parcours 5</h3>
-            </div>
-            <div class="col-xs-2 text-right">
-                <i class="icon-tem_arrow-down inactive"></i>
-            </div>
-        </div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgXempTAt7b2wbTKoq32jTpOLR0gKf_-E"></script>
+        <script type="text/javascript" src="/assets/maps.js"></script>
