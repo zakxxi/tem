@@ -1,48 +1,48 @@
 {
-    "villeuneuve-les-maguelone":{
-    "isActive": true,
-    "town": "Villeneuve-lès-Maguelone",
-    "location": "43.531425,3.8636218",
-    "presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
-    "credit": "Salami swine ground round bacon t-bone picanha cow. Doner pork chop turkey, pork belly cow chicken jowl pork loin porchetta t-bone. Cow t-bone picanha frankfurter.",
-    "audiourl": "/audio/tem_villeneuve_v4.mp3",
-    "length": "1937",
-    "cues": [
-        { "pos": 0, "title": "L'église" },
-        { "pos": 250, "title": "Le passage" },
-        { "pos": 500, "title": "La coquille" },
-        { "pos": 820, "title": "Le héros" },
-        { "pos": 1100, "title": "Le flamand" },
-        { "pos": 1350, "title": "Le miracle" },
-        { "pos": 1500, "title": "L'architecte" },
-        { "pos": 1700, "title": "Le théatre de verdure" }
-    ]
-},
-"villeuneuve-les-maguelone-bis":{
-"town": "Quand mon vallon chéri",
-"isActive": true,
-"location": "43.531425,3.8636218",
-"presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
-"credit": "Salami swine ground round bacon t-bone picanha cow. Doner pork chop turkey, pork belly cow chicken jowl pork loin porchetta t-bone. Cow t-bone picanha frankfurter.",
-"audiourl": "/audio/tem_villeneuve_v4.mp3",
-"length": "1937",
-"cues": [
-    { "pos": 0, "title": "L'église" },
-    { "pos": 250, "title": "Le passage" },
-    { "pos": 500, "title": "La coquille" },
-    { "pos": 820, "title": "Le héros" },
-    { "pos": 1100, "title": "Le flamand" },
-    { "pos": 1350, "title": "Le miracle" },
-    { "pos": 1500, "title": "L'architecte" },
-    { "pos": 1700, "title": "Le théatre de verdure" }
-]
-},
-"villeuneuve-les-maguelone-ter":{
-"town": "Incapable de dessiner",
-"isActive": false
-},
-"villeuneuve-les-maguelone-quarter":{
-"town": "Tous mes sens sont émus",
-"isActive": false
-}
+    "villeneuve-les-maguelone":{
+        "isActive": true,
+        "town": "Villeneuve-lès-Maguelone",
+        "location": "43.531425,3.8636218",
+        "presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
+        "courtesy": "Salami swine ground round bacon t-bone picanha cow. Doner pork chop turkey, pork belly cow chicken jowl pork loin porchetta t-bone. Cow t-bone picanha frankfurter.",
+        "audiourl": "/audio/tem_villeneuve_v4.mp3",
+        "length": "1937",
+        "cues": [
+            { "pos": 0, "title": "L'église" },
+            { "pos": 250, "title": "Le titlepassage" },
+            { "pos": 500, "title": "La coquille" },
+            { "pos": 820, "title": "Le héros" },
+            { "pos": 1100, "title": "Le flamand" },
+            { "pos": 1350, "title": "Le miracle" },
+            { "pos": 1500, "title": "L'architecte" },
+            { "pos": 1700, "title": "Le théatre de verdure" }
+        ]
+    },
+    "villeneuve-les-maguelone-bis":{
+        "town": "Quand mon vallon chéri",
+        "isActive": true,
+        "location": "43.531425,3.8636218",
+        "presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
+        "courtesy": "Salami swine ground round bacon t-bone picanha cow. Doner pork chop turkey, pork belly cow chicken jowl pork loin porchetta t-bone. Cow t-bone picanha frankfurter.",
+        "audiourl": "/audio/tem_villeneuve_v4.mp3",
+        "length": "1937",
+        "cues": [
+            { "pos": 0, "title": "L'église" },
+            { "pos": 250, "title": "Le passage" },
+            { "pos": 500, "title": "La coquille" },
+            { "pos": 820, "title": "Le héros" },
+            { "pos": 1100, "title": "Le flamand" },
+            { "pos": 1350, "title": "Le miracle" },
+            { "pos": 1500, "title": "L'architecte" },
+            { "pos": 1700, "title": "Le théatre de verdure" }
+        ]
+    },
+    "villeuneuve-les-maguelone-ter":{
+        "town": "Incapable de dessiner",
+        "isActive": false
+    },
+    "villeuneuve-les-maguelone-quarter":{
+        "town": "Tous mes sens sont émus",
+        "isActive": false
+    }
 }
