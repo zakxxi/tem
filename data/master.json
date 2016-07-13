@@ -1,4 +1,5 @@
-[{
+{
+    "villeuneuve-les-maguelones":{
     "town": "Villeneuve les Maguelones",
     "location": "43.531425,3.8636218",
     "presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
@@ -15,4 +16,5 @@
         { "pos": 1500, "title": "L'architecte" },
         { "pos": 1700, "title": "Le théatre de verdure" }
     ]
-}]
+}
+}
