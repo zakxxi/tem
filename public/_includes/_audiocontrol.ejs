@@ -3,11 +3,18 @@
  <audio id="audioElt" controls="controls">
     <source id="mp3_src" src="<%= public.paths._data[current.source].audiourl %>" type="audio/mpeg">
  </audio>
+ <div>
+<i class="icon-tem_play" onclick="$.popcorn.play()"></i>
+<i class="icon-tem_pause" onclick="$.popcorn.pause()"></i>
+<i class="icon-tem_rewind" onclick="$.popcorn.currentTime(currentCue)"></i>
+</div>
+<h1 id="currentCue"></h1>
 <ul>
 <%
 var chapters = public.paths._data[current.source].cues;
 for(var i=0; i<chapters.length; i++) {%>
 <li id="chapter<%=i%>"><%= chapters[i].title %></li>
+<li><br><br><br><br><br><br><br><br></li>
 <% } %>
 </ul>
 <script type="text/javascript">
