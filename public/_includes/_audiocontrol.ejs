@@ -1,9 +1,17 @@
+
 <h3>audiocontrol</h3>
- <audio id="audioElt">
-    <source id="mp3_src" type="audio/mpeg">
+ <audio id="audioElt" controls="controls">
+    <source id="mp3_src" src="<%= public.paths._data[current.source].audiourl %>" type="audio/mpeg">
  </audio>
+<ul>
+<%
+var chapters = public.paths._data[current.source].cues;
+for(var i=0; i<chapters.length; i++) {%>
+<li id="chapter<%=i%>"><%= chapters[i].title %></li>
+<% } %>
+</ul>
 <script type="text/javascript">
-    var pathData = <%- JSON.stringify(public.paths._data["villeuneuve-les-maguelone"]) %>;
+    var pathData = <%- JSON.stringify(public.paths._data[current.source]) %>;
 </script>
 <script type="text/javascript" src="/assets/popcorn.min.js"></script>
 <script type="text/javascript" src="/assets/path.js"></script>
