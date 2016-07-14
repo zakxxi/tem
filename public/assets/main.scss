@@ -107,6 +107,9 @@ hr {
 .chapterTitle {
   font-weight: 300;
   font-size:20px;
+  display: block;
+  margin-top: 35px;
+
 }
 
 .courtesy {
@@ -163,6 +166,7 @@ body {
 
 .icon-tem_maps {
     font-size:40px;
+    margin-right: 10px;
 }
 
 .icon-tem_home, .icon-tem_info, .icon-tem_share, .icon-tem_info, .icon-tem_share, .icon-tem_list {
@@ -173,18 +177,13 @@ body {
     font-size: 36px;
 }
 
-.icon-tem_compass {
+.icon-tem_compass, .icon-tem_check  {
     font-size: 20px;
+    margin-right: 5px;
+
 }
 
-.icon-tem_check {
-    font-size: 20px;
-}
 
-.icon-tem_marker, .icon-tem_marker-cross {
-    font-size: 80px;
-    color: $brand-primary;
-}
 .icon-tem_marker-cross.small{
     font-size: 20px;
     color: $text-color;
