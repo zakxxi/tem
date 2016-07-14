@@ -12,24 +12,24 @@ html {
   user-select: none;
 }
 
+.open {
+    font-weight: 500;
+    color: $brand-primary;
+}
+
 .inactive {
   h3 {
     margin-top: 15px;
 
   }
+
   h3, i {
     color: $gray-light;
     }
+
   hr {
     border-color: $gray-light;
   }
-}
-
-.open {
-    font-weight: 500;
-    color: $brand-primary;
-
-
 }
 
 .maps {
