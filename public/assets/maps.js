@@ -52,15 +52,16 @@ $('#villeneuve-les-maguelone-bis').on('shown.bs.collapse', function (e) {
 //
 $('.pathtitle').on('click', function (e) {
   $('.collapse.in').collapse('hide');
+})
 
-    $(this).find('i.icon-tem_arrow-down').toggleClass('hide');
-    $(this).find('i.icon-tem_arrow-up').toggleClass('hide');
-    $(this).find('h3').toggleClass('open');
-
+$('.pathcard').on('show.bs.collapse', function (e) {
+  $(this).prev().find('i.icon-tem_arrow-down').toggleClass('hide');
+  $(this).prev().find('i.icon-tem_arrow-up').toggleClass('hide');
+  $(this).prev().find('h3').toggleClass('open');
 })
 
 $('.pathcard').on('hide.bs.collapse', function (e) {
-    $(this).prev().find('i.icon-tem_arrow-down').toggleClass('hide');
-    $(this).prev().find('i.icon-tem_arrow-up').toggleClass('hide');
-    $(this).prev().find('h3').toggleClass('open');
+  $(this).prev().find('i.icon-tem_arrow-down').toggleClass('hide');
+  $(this).prev().find('i.icon-tem_arrow-up').toggleClass('hide');
+  $(this).prev().find('h3').toggleClass('open');
 })
