@@ -1,34 +1,71 @@
-<audio id="audioElt" controls="controls">
-    <source id="mp3_src" src="<%= public.paths._data[current.source].audiourl %>" type="audio/mpeg">
-</audio>
- <div>
-<i class="icon-tem_play big" onclick="$.popcorn.play()"></i>
+<div class="container fluid">
+  <div class="row" >
+    <div class ="col-xs-12 text-center">
+      <i class="play icon-tem_play big"></i>
+      <i class="pause icon-tem_pause big hide"></i>
+    </div>
+  </div>
+  <div class="row chapter" >
+    <div class ="col-xs-2 col-xs-offset-5 text-center">
+      X
+    </div>
+  </div>
+  <%
+  var chapters = public.paths._data[current.source].cues;
+  for(var i=0; i<chapters.length; i++) {%>
 
-</div>
-<ul>
-<%
-var chapters = public.paths._data[current.source].cues;
-for(var i=0; i<chapters.length; i++) {%>
-<li id="chapter<%=i%>"><%= chapters[i].title %></li>
-<li><br><br><br><br><br><br><br><br></li>
-<% } %>
-</ul>
-
-
-<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-       <div class="container">
-              <div class="row">
-                <i class="icon-tem_rewind" onclick="$.popcorn.currentTime(currentCue)"></i>
-                <i class="icon-tem_play" onclick="$.popcorn.play();"></i>
-                <i class="icon-tem_pause hide" onclick="$.popcorn.pause()"></i>
-                <span class="timer" id="currentCue">0:00</span>
-              </div>
+    <%if (i%2 == 0) { %>
+      <div class="row chapter played" >
+        <div class ="col-xs-5 text-right">
+          <span class="chapterTitle"  id="chapter<%=i%>"><%= chapters[i].title %></span>
+        </div>
+        <div class ="col-xs-2 text-center">
+          X
+        </div>
       </div>
-</nav>
 
+      <% } else{ %>
+        <div class="row chapter" >
+          <div class ="col-xs-2 col-xs-offset-5 text-center">
+            X
+          </div>
+          <div class ="col-xs-5 text-left">
+            <span class="chapterTitle"  id="chapter<%=i%>"><%= chapters[i].title %></span>
+          </div>
+        </div>
+        <% } %>
+        <% } %>
+        <div class="row chapter" >
+          <div class ="col-xs-2 col-xs-offset-5 text-center">
+            X
+          </div>
+        </div>
+      </div>
 
-<script type="text/javascript">
-    var pathData = <%- JSON.stringify(public.paths._data[current.source]) %>;
-</script>
-<script type="text/javascript" src="/assets/popcorn.min.js"></script>
-<script type="text/javascript" src="/assets/path.js"></script>
+      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 text-center">
+              <i class="rewind icon-tem_rewind"></i>
+            </div>
+            <div class="col-xs-4 text-center">
+              <i class="play icon-tem_play"></i>
+              <i class="pause icon-tem_pause hide"></i>
+            </div>
+            <div class="col-xs-4 text-center">
+              <span class="timer" id="currentCue">0:00</span>
+            </div>
+            <div class ="col-xs-12 text-center">
+              <audio id="audioElt">
+                <source id="mp3_src" src="<%= public.paths._data[current.source].audiourl %>" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <script type="text/javascript">
+        var pathData = <%- JSON.stringify(public.paths._data[current.source]) %>;
+        </script>
+        <script type="text/javascript" src="/assets/popcorn.min.js"></script>
+        <script type="text/javascript" src="/assets/path.js"></script>

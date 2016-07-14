@@ -14,7 +14,6 @@ html {
 
 .open {
     font-weight: 500;
-    color: $brand-primary;
 }
 
 .inactive {
@@ -36,6 +35,14 @@ html {
     width: 100%;
     height: 250px;
     margin-bottom: 10px;
+}
+
+.chapter {
+  height: 150px;
+}
+
+.played {
+  color: $brand-primary;
 }
 
 // CUSTOM TYPOGRAPHY
@@ -66,10 +73,20 @@ hr {
     margin: 0;
 }
 
+.timer {
+  font-weight: 500;
+  font-size:24px;
+  line-height: 116px;
+}
+
+.chapterTitle {
+  font-weight: 300;
+  font-size:20px;
+}
+
 .courtesy {
   font-weight: 300;
   font-size: 12px;
-
 }
 
 // NAVABAR
@@ -110,7 +127,7 @@ hr {
 }
 
 body {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 // UI ICONS
@@ -142,7 +159,7 @@ body {
     font-size: 20px;
     color: $text-color;
 }
-.icon-tem_play.big {
+.icon-tem_play.big, .icon-tem_pause.big {
     font-size: 120px;
 }
 

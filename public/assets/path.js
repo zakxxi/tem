@@ -35,6 +35,22 @@ $(function() {
         $.popcorn.cue(pathData.cues[i].pos, go.to);
     }
 
-
-
 });
+
+// UI CONTROLS
+
+$('.play').on('click', function (e) {
+  $.popcorn.play();
+  $('.play').toggleClass('hide');
+  $('.pause').toggleClass('hide');
+})
+
+$('.pause').on('click', function (e) {
+  $.popcorn.pause();
+  $('.play').toggleClass('hide');
+  $('.pause').toggleClass('hide');
+})
+
+$('.rewind').on('click', function (e) {
+  $.popcorn.currentTime(currentCue)
+})
