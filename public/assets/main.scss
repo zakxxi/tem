@@ -38,7 +38,32 @@ html {
 }
 
 .chapter {
-  height: 150px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.chapter-start {
+  height: 105px;
+  background: url('/images/tem_path-start.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.chapter-mark {
+  height: 105px;
+  background: url('/images/tem_path-chapter.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.chapter-end {
+  height: 105px;
+  background: url('/images/tem_path-end.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .played {
