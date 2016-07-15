@@ -7,7 +7,6 @@
 
 // UTILITY CLASSES
 //
-
 html {
   user-select: none;
 }
@@ -35,6 +34,7 @@ html {
     width: 100%;
     height: 250px;
     margin-bottom: 10px;
+    background-color: $gray;;
 }
 
 .chapter {
@@ -180,18 +180,48 @@ body {
 .icon-tem_compass, .icon-tem_check  {
     font-size: 20px;
     margin-right: 5px;
-
 }
-
 
 .icon-tem_marker-cross.small{
     font-size: 20px;
     color: $text-color;
 }
+
 .icon-tem_play.big, .icon-tem_pause.big {
     font-size: 120px;
 }
 
 .icon-tem_pause, .icon-tem_rewind, .icon-tem_play  {
     font-size: 80px;
+}
+
+// ANIMATIONS
+//
+
+$timer: 0.5s;
+
+body{
+    opacity: 0;
+    //transform: translateX(200px);
+}
+
+body.is-ready{
+    opacity: 1;
+    //transform: translateX(0);
+    transition-duration: $timer;
+}
+
+.maps{
+    opacity: 0;
+    //transform: translateX(200px);
+}
+
+.collapse.in * .maps{
+    opacity: 1;
+    //transform: translateX(0);
+    transition-duration: $timer;
+}
+
+a {
+    transition: color $timer;
 }

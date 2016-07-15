@@ -64,6 +64,10 @@ $('#villeneuve-les-maguelone-bis').on('shown.bs.collapse', function (e) {
 
 // UI CONTROLS
 //
+//
+//TO DO : se positionner au niveau du .pathtitle quand on clique sur celui ci
+//de façon à ne pas se perdre dans l'UI
+
 $('.pathtitle').on('click', function (e) {
   $('.collapse.in').collapse('hide');
 })

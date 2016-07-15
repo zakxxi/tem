@@ -1,1 +1,3 @@
-console.log("main.js hello")
+document.addEventListener('DOMContentLoaded', function() {
+    $('body').addClass('is-ready');
+}, false);
