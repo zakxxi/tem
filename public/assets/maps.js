@@ -3,7 +3,6 @@ console.log("maps.js hello");
 // MARKERS LOCATIONS
 //
 var location01 = new google.maps.LatLng(43.531437,3.864179);
-var location02 = new google.maps.LatLng(43.632425,3.8636318);
 
 // MAP INIT
 //
@@ -55,10 +54,6 @@ function init(mapId, centerLocation) {
 //
 $('#villeneuve-les-maguelone').on('shown.bs.collapse', function (e) {
   init('map_villeneuve-les-maguelone',location01);
-})
-
-$('#villeneuve-les-maguelone-bis').on('shown.bs.collapse', function (e) {
-  init('map_villeneuve-les-maguelone-bis',location02);
 })
 
 

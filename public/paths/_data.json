@@ -19,11 +19,13 @@
         ]
     },
     "murviel-les-montpellier":{
-        "town": "Murviel-lès-Montpellier",
-        "isActive": false
+      "isActive": false,
+      "town": "Murviel-lès-Montpellier",
+      "cues":[]
     },
     "sussargues":{
-        "town": "Sussargues",
-        "isActive": false
+      "isActive": false,
+      "town": "Sussargues",
+      "cues":[]
     }
 }
