@@ -1,5 +1,13 @@
 /*global $:true Popcorn:true*/
 
+
+//target the entire page, and listen for touch events
+$('html, body').on('touchmove', function(e){ 
+     //prevent native touch activity like scrolling
+     e.preventDefault(); 
+});
+
+
 var currentCue = 0;
 
 function zfill(num, len) {
@@ -24,8 +32,11 @@ $(function() {
                 currentCue = chapter.pos;
                 $('html,body').animate({
                     scrollTop: chapter.elt.offset().top -300
-                }, 2000, 'swing');
-                //TODO : Implement scrolling to chapter
+                }, 2000, 'swing',
+                function(){
+                  $('.chapterTitle').removeClass('playing');
+                  chapter.elt.addClass('playing');
+                });
             }
         };
     }
@@ -35,6 +46,22 @@ $(function() {
         $.popcorn.cue(pathData.cues[i].pos, go.to);
     }
 
-
-
 });
+
+// UI CONTROLS
+
+$('.play').on('click', function (e) {
+  $.popcorn.play();
+  $('.play').toggleClass('hide');
+  $('.pause').toggleClass('hide');
+})
+
+$('.pause').on('click', function (e) {
+  $.popcorn.pause();
+  $('.play').toggleClass('hide');
+  $('.pause').toggleClass('hide');
+})
+
+$('.rewind').on('click', function (e) {
+  $.popcorn.currentTime(currentCue)
+})

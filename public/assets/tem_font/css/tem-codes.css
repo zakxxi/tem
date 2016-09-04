@@ -8,9 +8,13 @@
 .icon-tem_info:before { content: '\e806'; } /* '' */
 .icon-tem_home:before { content: '\e807'; } /* '' */
 .icon-tem_list:before { content: '\e808'; } /* '' */
-.icon-tem_maker:before { content: '\e809'; } /* '' */
+.icon-tem_marker:before { content: '\e809'; } /* '' */
 .icon-tem_marker-cross:before { content: '\e80a'; } /* '' */
 .icon-tem_pause:before { content: '\e80b'; } /* '' */
 .icon-tem_play:before { content: '\e80c'; } /* '' */
 .icon-tem_rewind:before { content: '\e80d'; } /* '' */
 .icon-tem_share:before { content: '\e80e'; } /* '' */
+.icon-tem_path-chapter:before { content: '\e819'; } /* '' */
+.icon-tem_path-end:before { content: '\e81a'; } /* '' */
+.icon-tem_path-start:before { content: '\e81b'; } /* '' */
+.icon-tem_maps:before { content: '\e855'; } /* '' */
