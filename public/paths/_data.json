@@ -3,9 +3,9 @@
         "isActive": true,
         "town": "Villeneuve-lès-Maguelone",
         "location": "43.531437,3.864179",
-        "presentation": "Bacon ipsum dolor amet sausage turducken ham, cupim chicken brisket strip steak beef jerky. Bresaola flank shankle andouille, shoulder pork corned beef brisket alcatra. Short loin cow meatloaf salami. Andouille beef jowl, boudin pork chop alcatra beef ribs.",
-        "courtesy": "Salami swine ground round bacon t-bone picanha cow. Doner pork chop turkey, pork belly cow chicken jowl pork loin porchetta t-bone. Cow t-bone picanha frankfurter.",
-        "audiourl": "/audio/tem_villeneuve_v4.mp3",
+        "presentation": "Le point de départ est sur la Place de l’Église, vers le fond du parking sur la droite lorsqu’on vient de l’Église et que l’on se dirige vers l’Avenue du Chapitre. Le point départ est signalé par un repère visuel.",
+        "courtesy": "Patrice Barthès : création | Christophe Heral : composition sonore",
+        "audiourl": "/audio/tem_villeneuve_v5.mp3",
         "length": "1937",
         "cues": [
             { "pos": 60, "title": "L'église" },
