@@ -2,9 +2,9 @@
 
 
 //target the entire page, and listen for touch events
-$('html, body').on('touchmove', function(e){ 
+$('html, body').on('touchmove', function(e){
      //prevent native touch activity like scrolling
-     e.preventDefault(); 
+     e.preventDefault();
 });
 
 
@@ -28,7 +28,7 @@ $(function() {
         chapter["elt"] = $("#chapter" + idx);
         return {
             to: function() {
-                console.log(chapter.elt);
+//                console.log(chapter.elt);
                 currentCue = chapter.pos;
                 $('html,body').animate({
                     scrollTop: chapter.elt.offset().top -300
