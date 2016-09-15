@@ -1,5 +1,9 @@
 #CHANGELOG
 
+#2015-09-15 1.0.0 Public release
+* Bug fixes
+* Definitive content
+
 ##2015-09-04 0.9.0 First release (beta)
 * Homepage
 * List of paths
