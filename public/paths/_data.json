@@ -8,14 +8,17 @@
         "audiourl": "/audio/tem_villeneuve_v4.mp3",
         "length": "1937",
         "cues": [
-            { "pos": 60, "title": "L'église" },
-            { "pos": 250, "title": "Le passage" },
-            { "pos": 500, "title": "La coquille" },
-            { "pos": 820, "title": "Le héros" },
-            { "pos": 1100, "title": "Le flamand" },
-            { "pos": 1350, "title": "Le miracle" },
-            { "pos": 1500, "title": "L'architecte" },
-            { "pos": 1700, "title": "Le théatre de verdure" }
+            {"pos": 117,"title":"	L'église"},
+            {"pos":	292	,"title":"	Le presbytère"},
+            {"pos":	450	,"title":"	Le nord"},
+            {"pos":	510	,"title":"	Le passage"},
+            {"pos":	650	,"title":"	Saint Jacques"},
+            {"pos":	900	,"title":"	Le héros"},
+            {"pos":	1080	,"title":"	La paix"},
+            {"pos":	1275	,"title":"	Le flamand"},
+            {"pos":	1470	,"title":"	Le miracle"},
+            {"pos":	1650	,"title":"	L'architecte"},
+            {"pos":	1830	,"title":"	Le théatre"}
         ]
     },
     "murviel-les-montpellier":{
