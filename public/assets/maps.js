@@ -1,5 +1,3 @@
-console.log("maps.js hello");
-
 // MARKERS LOCATIONS
 //
 var location01 = new google.maps.LatLng(43.531437,3.864179);
