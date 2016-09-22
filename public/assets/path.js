@@ -54,6 +54,8 @@ $('.play').on('click', function (e) {
   $.popcorn.play();
   $('.play').toggleClass('hide');
   $('.pause').toggleClass('hide');
+  $('.helper').hide();
+  $('.chapters').fadeIn('slow');
 })
 
 $('.pause').on('click', function (e) {
