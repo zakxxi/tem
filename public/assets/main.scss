@@ -37,6 +37,14 @@ html {
     background-color: $gray;;
 }
 
+.helper {
+  margin-top: 50%;
+}
+
+.chapters {
+  display: none;
+}
+
 .chapter {
   height: 100px;
   overflow: hidden;
