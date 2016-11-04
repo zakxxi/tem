@@ -1,35 +1,104 @@
 {
-    "villeneuve-les-maguelone":{
-        "isActive": true,
-        "town": "Villeneuve-lès-Maguelone",
-        "location": "43.531437,3.864179",
-        "presentation": "Le point de départ est sur la Place de l’Église, vers le fond du parking sur la droite lorsqu’on vient de l’Église et que l’on se dirige vers l’Avenue du Chapitre. Le point départ est signalé par un repère visuel.",
-        "courtesy": "Créé par Patrice Barthès en collaboration avec Christophe Héral Avec la participation de Cab’cabaret et de Thomas Rondony, architecte. Remerciements particuliers à la Mairie de Villeneuve-lès-Maguelone, au Petit Troc, à Monique Avinens, Pierre Berthès, Sylviane Compan, Alain Guerrero pour leur contribution à la création de ce parcours.",
-        "audiourl": "/audio/tem_villeneuve_v6.mp3",
-        "length": "1937",
-        "cues": [
-         {"pos":    120 ,"title":"  L'église    "},
-{"pos": 274 ,"title":"  Le presbytère   "},
-{"pos": 450 ,"title":"  Le nord "},
-{"pos": 515 ,"title":"  Le passage  "},
-{"pos": 630 ,"title":"  Saint Jacques   "},
-{"pos": 890 ,"title":"  Le héros    "},
-{"pos": 1075    ,"title":"  La paix "},
-{"pos": 1267    ,"title":"  Le flamand  "},
-{"pos": 1490    ,"title":"  Le miracle  "},
-{"pos": 1670    ,"title":"  L'architecte    "},
-{"pos": 1848    ,"title":"  Le théatre  "}
-                
-        ]
-    },
-    "murviel-les-montpellier":{
-      "isActive": false,
-      "town": "Murviel-lès-Montpellier",
-      "cues":[]
-    },
-    "sussargues":{
-      "isActive": false,
-      "town": "Sussargues",
-      "cues":[]
-    }
+	"villeneuve-les-maguelone": {
+		"isActive": true,
+		"town": "Villeneuve-lès-Maguelone",
+		"location": "43.531437,3.864179",
+		"presentation": "Le point de départ est sur la Place de l’Église, vers le fond du parking sur la droite lorsqu’on vient de l’Église et que l’on se dirige vers l’Avenue du Chapitre. Le point départ est signalé par un repère visuel.",
+		"courtesy": "Créé par Patrice Barthès en collaboration avec Christophe Héral Avec la participation de Cab’cabaret et de Thomas Rondony, architecte. Remerciements particuliers à la Mairie de Villeneuve-lès-Maguelone, au Petit Troc, à Monique Avinens, Pierre Berthès, Sylviane Compan, Alain Guerrero pour leur contribution à la création de ce parcours.",
+		"audiourl": "/audio/tem_villeneuve_v6.mp3",
+		"length": "1937",
+		"cues": [{
+				"pos": 120,
+				"title": " L'église"
+			}, {
+				"pos": 274,
+				"title": "Le presbytère"
+			}, {
+				"pos": 450,
+				"title": "Le nord"
+			}, {
+				"pos": 515,
+				"title": "Le passage"
+			}, {
+				"pos": 630,
+				"title": "Saint Jacques"
+			}, {
+				"pos": 890,
+				"title": "Le héros"
+			}, {
+				"pos": 1075,
+				"title": "La paix"
+			}, {
+				"pos": 1267,
+				"title": "Le flamand"
+			}, {
+				"pos": 1490,
+				"title": "Le miracle"
+			}, {
+				"pos": 1670,
+				"title": "L'architecte"
+			}, {
+				"pos": 1848,
+				"title": "Le théatre"
+			}
+
+		]
+	},
+	"murviel-les-montpellier": {
+		"isActive": true,
+		"town": "Murviel-lès-Montpellier",
+		"location": "43.6064513,3.7365358",
+		"presentation": "Le point de départ est devant la Fontaine Romaine en contrebas de la Route de Bel Air, le point départ est signalé par un repère visuel.",
+		"courtesy": "Créé par Patrice Barthès en collaboration avec Jerôme Hoffmann, compositeur.  Remerciements particuliers à la Mairie de Murviel lès Montpellier,  à Monsieur André Sudre et à Monsieur Jean Marc Touzard pour leur contribution à la création de ce parcours. La musique du générique est de Christophe Héral.",
+		"audiourl": "/audio/tem_murviel.mp3",
+		"length": "2264",
+		"cues": [{
+			"pos": 108,
+			"title": "La fontaine"
+		}, {
+			"pos": 258,
+			"title": "l'esprit joueur"
+		}, {
+			"pos": 394,
+			"title": "l'anamorphose"
+		}, {
+			"pos": 578,
+			"title": "le murier"
+		}, {
+			"pos": 747,
+			"title": "le castellas"
+		}, {
+			"pos": 880,
+			"title": "la grille"
+		}, {
+			"pos": 1012,
+			"title": "la coquille"
+		}, {
+			"pos": 1170,
+			"title": "l'orgue"
+		}, {
+			"pos": 1322,
+			"title": "le beau lieu"
+		}, {
+			"pos": 1544,
+			"title": "le point de vue"
+		}, {
+			"pos": 1708,
+			"title": "la forge"
+		}, {
+			"pos": 1892,
+			"title": "le passage piéton"
+		}, {
+			"pos": 1938,
+			"title": "sous le figuier"
+		}, {
+			"pos": 2182,
+			"title": "le lieu dit"
+		}]
+	},
+	"sussargues": {
+		"isActive": false,
+		"town": "Sussargues",
+		"cues": []
+	}
 }
