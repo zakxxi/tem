@@ -5,20 +5,21 @@
         "location": "43.531437,3.864179",
         "presentation": "Le point de départ est sur la Place de l’Église, vers le fond du parking sur la droite lorsqu’on vient de l’Église et que l’on se dirige vers l’Avenue du Chapitre. Le point départ est signalé par un repère visuel.",
         "courtesy": "Créé par Patrice Barthès en collaboration avec Christophe Héral Avec la participation de Cab’cabaret et de Thomas Rondony, architecte. Remerciements particuliers à la Mairie de Villeneuve-lès-Maguelone, au Petit Troc, à Monique Avinens, Pierre Berthès, Sylviane Compan, Alain Guerrero pour leur contribution à la création de ce parcours.",
-        "audiourl": "/audio/tem_villeneuve_v5.mp3",
+        "audiourl": "/audio/tem_villeneuve_v6.mp3",
         "length": "1937",
         "cues": [
-            {"pos": 117,"title":"L'église"},
-            {"pos":	292	,"title":"Le presbytère"},
-            {"pos":	450	,"title":"Le nord"},
-            {"pos":	510	,"title":"Le passage"},
-            {"pos":	650	,"title":"Saint Jacques"},
-            {"pos":	900	,"title":"Le héros"},
-            {"pos":	1080	,"title":"La paix"},
-            {"pos":	1275	,"title":"Le flamand"},
-            {"pos":	1470	,"title":"Le miracle"},
-            {"pos":	1650	,"title":"L'architecte"},
-            {"pos":	1830	,"title":"Le théatre"}
+         {"pos":    120 ,"title":"  L'église    "},
+{"pos": 274 ,"title":"  Le presbytère   "},
+{"pos": 450 ,"title":"  Le nord "},
+{"pos": 515 ,"title":"  Le passage  "},
+{"pos": 630 ,"title":"  Saint Jacques   "},
+{"pos": 890 ,"title":"  Le héros    "},
+{"pos": 1075    ,"title":"  La paix "},
+{"pos": 1267    ,"title":"  Le flamand  "},
+{"pos": 1490    ,"title":"  Le miracle  "},
+{"pos": 1670    ,"title":"  L'architecte    "},
+{"pos": 1848    ,"title":"  Le théatre  "}
+                
         ]
     },
     "murviel-les-montpellier":{
