@@ -1,7 +1,7 @@
 // MARKERS LOCATIONS
 //
 var location01 = new google.maps.LatLng(43.531437,3.864179);
-
+var location02 = new google.maps.LatLng(43.6064513,3.7365358);
 // MAP INIT
 //
 function init(mapId, centerLocation) {
@@ -53,7 +53,9 @@ function init(mapId, centerLocation) {
 $('#villeneuve-les-maguelone').on('shown.bs.collapse', function (e) {
   init('map_villeneuve-les-maguelone',location01);
 })
-
+$('#murviel-les-montpellier').on('shown.bs.collapse', function (e) {
+  init('map_murviel-les-montpellier',location02);
+})
 
 // UI CONTROLS
 //
