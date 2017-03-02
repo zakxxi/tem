@@ -143,52 +143,53 @@
         "presentation": "Le point de départ est prêt du Parking du Collège François Mitterand au début du chemin des écoliers, parallèle à l'Avenue Georges Frêche. Le point de départ est signalé par un visuel spécifique.",
         "courtesy": "Créé par Patrice Barthès en collaboration avec le compositeur et musicien Frank Rabeyrolles. Christophe Héral a composé les génériques. Avec les participations de Miguel Georgieff et Numa Hambursin. Remerciements à Jean Luc Martineau et Etienne Hamel pour leurs contributions.",
         "audiourl": "/audio/tem_clapiers.mp3",
-        "length": "3244",
+        "length": 3106,
         "cues": [{
                 "pos": 152,
                 "title": "paysagiste"
             },
             {
-                "pos": 582,
+                "pos": 448,
                 "title": "effet d'aube"
             },
             {
-                "pos": 980,
+                "pos": 820,
                 "title": "le château"
             },
             {
-                "pos": 1306,
+                "pos": 1146,
                 "title": "la jupette"
             },
             {
-                "pos": 1510,
+                "pos": 1350,
                 "title": "vue du bosc"
             },
             {
-                "pos": 1720,
+                "pos": 1557,
                 "title": "le pin du square"
             },
             {
-                "pos": 1960,
+                "pos": 1800,
                 "title": "la croix"
             },
             {
-                "pos": 2275,
+                "pos": 2115,
                 "title": "l'abribus"
             },
             {
-                "pos": 2450,
+                "pos": 2287,
                 "title": "l'escalier"
             },
             {
-                "pos": 2685,
+                "pos": 2522,
                 "title": "les agaves"
             },
             {
-                "pos": 2856,
+                "pos": 2698,
                 "title": "l'axe transversal"
-            }, {
-                "pos": 2950,
+            },
+            {
+                "pos": 2786,
                 "title": "pupitre"
             }
         ]
