@@ -4,6 +4,7 @@ var location01 = new google.maps.LatLng(43.531437, 3.864179);
 var location02 = new google.maps.LatLng(43.6064513, 3.7365358);
 var location03 = new google.maps.LatLng(43.7128832, 4.0019819);
 var location04 = new google.maps.LatLng(43.652569, 3.894760);
+var location05 = new google.maps.LatLng(43.605606, 3.785417);
 // MAP INIT
 //
 function init(mapId, centerLocation) {
@@ -127,6 +128,12 @@ function init(mapId, centerLocation) {
     map: gMap,
     icon: iconMarker
   });
+
+  var marker05 = new google.maps.Marker({
+    position: location05,
+    map: gMap,
+    icon: iconMarker
+  });
 }
 
 // UI MAP DISPLAY & CENTER
@@ -142,6 +149,9 @@ $('#sussargues').on('shown.bs.collapse', function (e) {
 })
 $('#clapiers').on('shown.bs.collapse', function (e) {
   init('map_clapiers', location04);
+})
+$('#saintgeorges').on('shown.bs.collapse', function (e) {
+  init('map_saintgeorges', location05);
 })
 
 // UI CONTROLS

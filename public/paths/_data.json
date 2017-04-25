@@ -193,5 +193,80 @@
                 "title": "pupitre"
             }
         ]
+    },
+    "saintgeorges": {
+
+        "isActive": true,
+        "town": "Saint Georges d'Orques",
+        "location": "43.605606, 3.785417",
+        "presentation": "",
+        "courtesy": "Créé par Patrice Barthès en collaboration avec le compositeur et musicien Julien Valette. Christophe Héral a composé les génériques.",
+        "audiourl": "/audio/tem_saintgeorges.mp3",
+        "length": 3966,
+        "cues": [{
+                "pos": 175,
+                "title": "jardins familiaux"
+            },
+            {
+                "pos": 280,
+                "title": "marécage"
+            },
+            {
+                "pos": 580,
+                "title": "première représentation"
+            },
+            {
+                "pos": 940,
+                "title": "l'école"
+            },
+            {
+                "pos": 1045,
+                "title": "le lavoir"
+            },
+            {
+                "pos": 1320,
+                "title": "place de l'église"
+            },
+            {
+                "pos": 1548,
+                "title": "danse tellurique"
+            },
+            {
+                "pos": 1795,
+                "title": "bmx"
+            },
+            {
+                "pos": 1929,
+                "title": "main courante"
+            },
+            {
+                "pos": 2180,
+                "title": "place de la croix"
+            },
+            {
+                "pos": 2430,
+                "title": "troisième représentation"
+            },
+            {
+                "pos": 2682,
+                "title": "l'amour"
+            },
+            {
+                "pos": 3000,
+                "title": "rond-point"
+            },
+            {
+                "pos": 3400,
+                "title": "la borne"
+            },
+            {
+                "pos": 3517,
+                "title": "laurier"
+            },
+            {
+                "pos": 3790,
+                "title": "le labournas"
+            }
+        ]
     }
 }
