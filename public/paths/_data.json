@@ -196,10 +196,10 @@
     },
     "saintgeorges": {
         "isActive": true,
-        "town": "Saint Georges d'Orques",
-        "location": "43.605606, 3.785417",
-        "presentation": "",
-        "courtesy": "Créé par Patrice Barthès en collaboration avec le compositeur et musicien Julien Valette. Christophe Héral a composé les génériques.",
+        "town": "Saint-Georges-d'Orques",
+        "location": "43.603752, 3.783419",
+        "presentation": "Le point de départ  au dos du panneau indiquant la sortie de St Georges d'Orques sur la route de Pignan.",
+        "courtesy": "Créé par Patrice Barthès en collaboration avec le compositeur et musicien Julien Valette. Christophe Héral a composé les génériques. Avec les contributions de Monsieur Antonio Blasco, de Père Rouquette et de Mahaut Michez, paysagiste.",
         "audiourl": "/audio/tem_saintgeorges.mp3",
         "length": 3966,
         "cues": [{

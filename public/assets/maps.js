@@ -4,7 +4,7 @@ var location01 = new google.maps.LatLng(43.531437, 3.864179);
 var location02 = new google.maps.LatLng(43.6064513, 3.7365358);
 var location03 = new google.maps.LatLng(43.7128832, 4.0019819);
 var location04 = new google.maps.LatLng(43.652569, 3.894760);
-var location05 = new google.maps.LatLng(43.605606, 3.785417);
+var location05 = new google.maps.LatLng(43.603752, 3.783419);
 // MAP INIT
 //
 function init(mapId, centerLocation) {
