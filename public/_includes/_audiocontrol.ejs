@@ -21,18 +21,18 @@
     <%if (i%2 == 0) { %>
       <div class="row chapter" >
         <div class ="col-xs-5 text-right">
-          <span class="chapterTitle"  id="chapter<%=i%>"><%= chapters[i].title %></span>
+          <span class="chapterTitle"  id="chapter<%=i%>" ><%= chapters[i].title %></span>
         </div>
-        <div class ="col-xs-2 text-center chapter-mark">
+        <div class ="col-xs-2 text-center chapter-mark" onclick="$.popcorn.play(<%= chapters[i].pos %>)">
         </div>
       </div>
 
       <% } else{ %>
         <div class="row chapter" >
-          <div class ="col-xs-2 col-xs-offset-5 chapter-mark">
+          <div class ="col-xs-2 col-xs-offset-5 chapter-mark" onclick="$.popcorn.play(<%= chapters[i].pos %>)">
           </div>
           <div class ="col-xs-5 text-left">
-            <span class="chapterTitle"  id="chapter<%=i%>"><%= chapters[i].title %></span>
+            <span class="chapterTitle"  id="chapter<%=i%>" ><%= chapters[i].title %></span>
           </div>
         </div>
         <% } %>
@@ -48,7 +48,6 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-4 text-center">
-              <a><i class="rewind icon-tem_rewind"></i></a>
             </div>
             <div class="col-xs-4 text-center">
               <a><i class="play icon-tem_play"></i></a>

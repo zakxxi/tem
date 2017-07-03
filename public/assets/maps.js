@@ -6,6 +6,7 @@ var location03 = new google.maps.LatLng(43.7128832, 4.0019819);
 var location04 = new google.maps.LatLng(43.652569, 3.894760);
 var location05 = new google.maps.LatLng(43.603752, 3.783419);
 var location06 = new google.maps.LatLng(43.571227, 3.813131);
+var location07 = new google.maps.LatLng(43.724903, 4.0391928);
 // MAP INIT
 //
 function init(mapId, centerLocation) {
@@ -140,6 +141,11 @@ function init(mapId, centerLocation) {
     map: gMap,
     icon: iconMarker
   });
+  var marker07 = new google.maps.Marker({
+    position: location07,
+    map: gMap,
+    icon: iconMarker
+  });
 }
 
 // UI MAP DISPLAY & CENTER
@@ -161,6 +167,9 @@ $('#saintgeorges').on('shown.bs.collapse', function (e) {
 })
 $('#laverune').on('shown.bs.collapse', function (e) {
   init('map_laverune', location06);
+})
+$('#restinclieres').on('shown.bs.collapse', function (e) {
+  init('map_restinclieres', location07);
 })
 // UI CONTROLS
 //
